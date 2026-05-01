@@ -13,10 +13,11 @@ The methods implemented are described in this paper: [arXiv:2507.01546](https://
 
 ```
 detection-bias/
-├── galaxy_injector.py # Simulate and inject galaxies into survey tiles
-├── catalog_comparator.py # Compare injected vs detected catalogs
-├── GalaxyWeightAssigner.py # Assign weights based on detection probabilities
-├── requirements.txt # Python dependencies
+├── src/
+│   ├── galaxy_injector.py        # Simulate and inject galaxies into survey tiles
+│   ├── catalog_comparator.py     # Compare injected vs detected catalogs
+│   └── galaxy_weight_assigner.py # Assign weights based on detection probabilities
+├── requirements.txt              # Python dependencies
 └── README.md
 ```
 
